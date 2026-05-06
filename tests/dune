@@ -6,6 +6,7 @@
    test_alcotest.exe
    test.exe
    meta_test.exe
+   failing_test.exe  ; invoked by meta_test
    parallel_test.exe  ; invoked by meta_test
    subtest.exe ; invoked by meta_test
    timeout_test.exe  ; invoked by meta_test
