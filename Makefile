@@ -73,6 +73,8 @@ opam-release: delete-symlinks opam-files changes
 	dune-release publish
 	# upload the tarballs to GitHub, attaching them to the release
 	dune-release opam pkg
+	# open opam-repository pull request
+	dune-release opam submit
 
 .PHONY: opam-files
 opam-files:
